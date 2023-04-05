@@ -1,0 +1,98 @@
+.author{
+    text-decoration: overline;
+    
+}
+
+.about{
+    padding: 1.5rem;
+    margin-bottom: 8rem;
+   
+}
+
+.prompt{
+    display: flex;
+    flex-direction:column;
+    padding: 1.5rem;
+    
+    margin: 0 auto;
+} 
+
+.icons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.about h1{
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+
+.prompt svg{
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.prompt p {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+
+
+
+
+hr{
+    border-color: #0c0b08;
+}
+/*skills down below*/
+
+
+
+
+
+.skills{
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.skills h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+.skills h2{
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.skillsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.skillsList .item h2{
+    text-decoration: overline;
+}
+
+
+.skillsList .item span{
+    color: #fbc403;
+    font-size: 1.5em;
+}
+
+span{
+    color: #fbc403;
+}
+
+
+
+
