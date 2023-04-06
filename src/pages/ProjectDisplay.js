@@ -12,7 +12,7 @@ export default function ProjectDisplay() {
   return (
     <div className='project'>
         <h1>{project.name}</h1>
-        <img src={project.image}/>
+        <img alt='Project' src={project.image}/>
         <a rel="noreferrer" style={{color:'white'}} target="_blank" href={project.github_repo}>Github Repo of this project  <GitHubIcon/></a>
     </div>
   )

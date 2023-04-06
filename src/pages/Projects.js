@@ -10,14 +10,9 @@ export default function Project(){
           <h1> My personal <span className='title'>Projects</span></h1>
           <div className="projectList">
             {projectList.map((project, idx) => {
-
               return <ProjectItem id={idx} name={project.name} image={project.image} />
-             
             })}
           </div>
         </div>
       );
 }
-
-
-

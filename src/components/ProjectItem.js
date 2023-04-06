@@ -14,4 +14,3 @@ export default function ProjectItem({image, name, id}) {
     </div>
   )
 }
-

@@ -26,21 +26,3 @@ export const projectList = [
 },
 
 ] 
-
-
-/*
-projectList.map((project) => {
-    return <ProjectItem name={project.name} image={project.image}/>
-})}
-*/
-
-
-
-
-/*
-    DIFFERENT CODE!!
-
-*/
-
-
-
