@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Link, useLocation} from 'react-router-dom'
-import "../styles/Navbar.css"
+import "../styles/navbar.css"
 import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined'
 
 export default function Navbar() {
