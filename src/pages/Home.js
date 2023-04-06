@@ -12,9 +12,9 @@ export default function Home() {
                 <div className='prompt'>
                     <p>A systems information student with a passion for programming and learning.</p>
                     <div className='icons'>
-                        <GitHubIcon/>
-                        <EmailIcon/>
-                        <LinkedInIcon/>
+                        <a style={{color:'white'}} target="_blank" href="https://github.com/FabioVV"><GitHubIcon/></a>
+                        <a style={{color:'white'}} target="_blank" href="mailto:fabinhotk998@hotmail.com"><EmailIcon/></a>
+                        <a style={{color:'white'}} target="_blank" href="https://www.linkedin.com/in/f%C3%A1bio-varela-413719217"><LinkedInIcon /></a>
                     </div>
                     
                 </div>
