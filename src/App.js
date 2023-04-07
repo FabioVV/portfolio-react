@@ -1,14 +1,13 @@
 import './styles/app.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 import Particles from "react-tsparticles"; 
 import { loadFull } from "tsparticles"; 
-import Home from './pages/Home';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
-import Resume from './pages/Resume';
-import ProjectDisplay from './pages/ProjectDisplay';
+
+import AnimatedRoutes from './components/AnimatedRoutes';
+
 
 export default function App() {
   const particlesInit = async (main) => { 
@@ -18,6 +17,7 @@ export default function App() {
   const particlesLoaded = (container) => { 
     console.log(container); 
   }; 
+
 
   return (
     <div className="App">
@@ -77,13 +77,7 @@ export default function App() {
       
       <Router>
       <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/projects' element={<Projects/>} />
-          <Route path='/project/:id' element={<ProjectDisplay/>} />
-          <Route path='/experiences' element={<Experience/>} />
-          <Route path='/my-resume' element={<Resume/>} />
-        </Routes>
+        <AnimatedRoutes/>
       <Footer/>
       </Router>
     </div>

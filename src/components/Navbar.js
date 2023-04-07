@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {Link, useLocation} from 'react-router-dom'
 import "../styles/navbar.css"
 import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined'
+import HomeIcon from '@mui/icons-material/Home';
 
 export default function Navbar() {
 
@@ -15,12 +16,11 @@ export default function Navbar() {
             <button onClick={() => {setExpandNav((prev) => !prev)}}> <ReorderOutlinedIcon/> </button> 
         </div>
         <div className='links'>
-            <Link to="/"> Home </Link>
+           
+            <Link className='logo' to="/"><HomeIcon/> Home </Link>
             <Link to="/projects"> Projects </Link>
             <Link to="/experiences"> Experience </Link>
             <Link to="/my-resume"> Resume </Link>
         </div>
     </div>;
-  
 }
-

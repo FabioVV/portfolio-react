@@ -1,0 +1,35 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+  
+
+.resume h1{
+    font-size: 4em;
+    margin-bottom: 1rem;
+}
+
+.resume div{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.resume small{
+   font-size: 1.15em;
+}
+
+.section{
+    
+    color: #fbc403;
+    margin-bottom: 2rem;
+    
+}
+
+
+li{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1.5em;
+}
