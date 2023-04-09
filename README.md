@@ -1,3 +1,3 @@
 # My portfolio.
 
-## Made in ReactJS
+## Made with ReactJS
