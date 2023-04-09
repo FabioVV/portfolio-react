@@ -65,7 +65,7 @@ export default function Home() {
                       
                       >
                         <h1>Some of my skills~$: </h1>
-                        <ol className='hidden skillsList'>
+                        <ol className='skillsList'>
                             <li className='item'>
                                 <h2>Front-End</h2>
                                 <span>ReactJS - HTML - CSS - Bootstrap - MaterialUI</span>
