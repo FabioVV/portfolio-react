@@ -2,10 +2,6 @@ import './styles/app.css';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Particles from "react-tsparticles"; 
 import { loadFull } from "tsparticles"; 
-
-import Navbar from './components/Navbar';
-import Footer from './components/Footer'
-
 import AnimatedRoutes from './components/AnimatedRoutes';
 
 
@@ -76,9 +72,7 @@ export default function App() {
       /> 
       
       <Router>
-      <Navbar/>
         <AnimatedRoutes/>
-      <Footer/>
       </Router>
     </div>
   );
