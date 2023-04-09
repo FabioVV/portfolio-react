@@ -56,7 +56,7 @@ hr{
 
 
 .skills{
-    background-color: #000000;
+    
     color: white;
 }
 
@@ -107,7 +107,7 @@ span{
 
 
 .prompt.me{
-    background-color: black;
+    
     margin: 0 auto;
     display: flex;
     align-items: center;
