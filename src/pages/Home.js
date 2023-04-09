@@ -38,11 +38,11 @@ export default function Home() {
                     <div   className=' about'>
                         <h1>A little about <span className='author'>Me</span></h1>
                         <div className='prompt me'>
-                            <p> I am a systems information student with a passion for programming and learning. 
+                            <p> I am a systems information student that is in love with technology and software development. 
                                 I have always loved coding and technology since i was little.
                             </p>
                             <p>
-                                I had my first contact with coding
+                                I had my first contact with programming
                                 when i was in High School, with our Logics teacher teaching us Pascal and later Java.
                                 I have become a great student, and i stand out through my grades, focus and commitment.
                                 Today i am currently studying for a degree in Systems information. 
