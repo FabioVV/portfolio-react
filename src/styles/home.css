@@ -111,8 +111,14 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 75ch;
+    max-width:100ch;
     transition: ease-in-out 250ms;
+    
+}
+
+
+.prompt.me p{
+    margin-bottom: 2rem;
     
 }
 
