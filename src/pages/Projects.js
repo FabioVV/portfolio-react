@@ -3,9 +3,13 @@ import '../styles/projects.css'
 import ProjectItem from '../components/ProjectItem';
 import {projectList} from '../helpers/ProjectList'
 import {motion} from 'framer-motion'
+import DefaultPage from './DefaultPage';
 
 export default function Project(){
     return (
+      <DefaultPage>
+
+      
         <motion.div className="projects"
         initial={{width:0}}
         animate={{width:"100%"}}
@@ -18,5 +22,6 @@ export default function Project(){
             })}
           </div>
         </motion.div>
+        </DefaultPage>
       );
 }

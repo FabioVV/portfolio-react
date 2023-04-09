@@ -4,9 +4,11 @@ import 'react-vertical-timeline-component/style.min.css'
 import SchoolIcon from '@mui/icons-material/School';
 import '../styles/experience.css'
 import {motion} from 'framer-motion'
+import DefaultPage from './DefaultPage';
 
 export default function Experience(){
     return (
+        <DefaultPage>
         <motion.div className='Experiences'
         initial={{width:0}}
                     animate={{width:"100%"}}
@@ -55,5 +57,8 @@ export default function Experience(){
 
 
             </VerticalTimeline>
-        </motion.div>);
+        </motion.div>
+        </DefaultPage>
+        );
+        
 }

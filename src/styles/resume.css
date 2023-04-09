@@ -31,5 +31,22 @@ li{
 }
 
 p{
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+
+.section.sub{
+    text-decoration: underline;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+span{
+    color: #fbc403;
+}
+
+.education-section{
+    padding: 1rem;
 }

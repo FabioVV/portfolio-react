@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import DefaultPage from './DefaultPage';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -6,11 +7,19 @@ import GamesIcon from '@mui/icons-material/Games';
 import EmailIcon from '@mui/icons-material/Email';
 import '../styles/home.css';
 import {motion} from 'framer-motion'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 export default function Home() {
+
+    useEffect(()=>{
+        AOS.init();
+    },[])
+
     return (
+                <DefaultPage>
                 <motion.div className='home'
                 
                 initial={{width:0}}
@@ -54,11 +63,11 @@ export default function Home() {
                             </li>
                             <li className='item'>
                                 <h2>Back-End</h2>
-                                <span>MySQL - SQLServer - Flask</span>
+                                <span>MySQL - SQLServer - Flask - Ruby on Rails</span>
                             </li>
                             <li className='item'>
                                 <h2>Languages</h2>
-                                <span>C# - Python - Javascript</span>
+                                <span>Ruby - C# - Python - Javascript</span>
                             </li>
                         </ol>
                     </div>
@@ -86,7 +95,7 @@ export default function Home() {
                         </div>
                     
                 </motion.div>
-      
+                </DefaultPage>
     );
 }
 

@@ -4,6 +4,7 @@ import { projectList } from '../helpers/ProjectList'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/projectDisplay.css'
 import {motion} from 'framer-motion'
+import DefaultPage from './DefaultPage';
 
 export default function ProjectDisplay() {
 
@@ -11,6 +12,7 @@ export default function ProjectDisplay() {
     const project = projectList[id]
 
   return (
+    <DefaultPage>
     <motion.div className='project'
     initial={{width:0}}
                     animate={{width:"100%"}}
@@ -20,5 +22,6 @@ export default function ProjectDisplay() {
         <img alt='Project' src={project.image}/>
         <a rel="noreferrer" style={{color:'white'}} target="_blank" href={project.github_repo}>Github Repo of this project  <GitHubIcon/></a>
     </motion.div>
+    </DefaultPage>
   )
 }

@@ -24,5 +24,9 @@ export const projectList = [
     image: port,
     github_repo: "https://github.com/FabioVV/portfolio-react"
 },
-
+{
+    name: "Blog in Ruby on rails",
+    image: vcadernoflask,
+    github_repo: "https://github.com/FabioVV/RubyBlog"
+},
 ] 
