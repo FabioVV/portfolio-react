@@ -16,7 +16,7 @@ export default function Resume() {
       
       >
           <h1 className='title'>FÁBIO VARELA</h1>
-          <small className='contact'>fabinhotk998@hotmail.com | 49-985018642 </small>
+          <small className='contact'>fabio-varela@protonmail.com | 49-985018642 </small>
 
           <div>
             <h2 className='section'>Objective</h2>

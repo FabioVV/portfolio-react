@@ -8,6 +8,15 @@
    
 }
 
+li.item:hover{
+    box-shadow:1px 1px #fbc403 ;
+}
+
+li.item{
+    transition: 250ms ease-in-out;
+    padding: 1rem;
+}
+
 .prompt{
     display: flex;
     flex-direction:column;

@@ -88,7 +88,7 @@ export default function Home() {
                         <div className='prompt contact'>
                             <div className='icons'>
                                 <a  rel="noreferrer" style={{color:'white'}} target="_blank" href="https://github.com/FabioVV"><GitHubIcon/>My github</a>
-                                <a  rel="noreferrer" style={{color:'white'}} target="_blank" href="mailto:fabinhotk998@hotmail.com"><EmailIcon/>My Email</a>
+                                <a  rel="noreferrer" style={{color:'white'}} target="_blank" href="mailto:fabio-varela@protonmail.com"><EmailIcon/>My Email</a>
                                 <a  rel="noreferrer" style={{color:'white'}} target="_blank" href="https://www.linkedin.com/in/f%C3%A1bio-varela-413719217"><LinkedInIcon />My LinkedIn</a>
                                 <a  rel="noreferrer" style={{color:'white'}} target="_blank" href="https://twitter.com/fabinhotk"><TwitterIcon />My Twitter</a>
                                 <a  rel="noreferrer" style={{color:'white'}} target="_blank" href="https://steamcommunity.com/id/fabinhotk998/"><GamesIcon/>My Steam</a>
