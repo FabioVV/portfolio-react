@@ -9,7 +9,7 @@ import '../styles/home.css';
 import {motion} from 'framer-motion'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import me from '../assets/me.jpeg' 
 
 
 export default function Home() {
@@ -28,6 +28,7 @@ export default function Home() {
                 >
                     <div className='about '>
                         <h1>Hi, my name is <span className='author'>Fábio</span></h1>
+                        <div style={{backgroundImage:`url(${me})`}} className='myprofile'></div>
                         <div className='prompt'>
                             <p>- A systems information student with a passion for programming and learning. -</p>
                         </div>
