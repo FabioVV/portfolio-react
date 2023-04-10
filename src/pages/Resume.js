@@ -2,7 +2,8 @@ import React from 'react'
 import '../styles/resume.css'
 import {motion} from 'framer-motion'
 import DefaultPage from './DefaultPage';
-
+import {Link} from 'react-router-dom';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 
@@ -73,7 +74,7 @@ export default function Resume() {
             </ul>
           </div>
 
-        
+          <center style={{marginTop:'1rem'}}><Link className='logo' to="/"><HomeIcon/> Return to home page /&gt; </Link></center>
       </motion.div>
     </DefaultPage>
   );

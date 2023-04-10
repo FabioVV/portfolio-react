@@ -8,7 +8,7 @@ import { Route, Routes, useLocation} from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion'
 
 
-function AnimatedRoutes() {
+export default function AnimatedRoutes() {
 
     const location = useLocation();
 
@@ -20,10 +20,9 @@ function AnimatedRoutes() {
             <Route path='/projects' element={<Projects/>} />
             <Route path='/project/:id' element={<ProjectDisplay/>} />
             <Route path='/experiences' element={<Experience/>} />
-            <Route path='/my-resume' element={<Resume/>} />
+            <Route path='/my-resume' element={<Resume/>}/>
         </Routes>
     </AnimatePresence>
   )
 }
-
-export default AnimatedRoutes
+// />

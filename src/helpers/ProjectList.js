@@ -28,5 +28,4 @@ export const projectList = [
     name: "Blog in Ruby on rails",
     image: ruby,
     github_repo: "https://github.com/FabioVV/RubyBlog"
-},
-] 
+},] 

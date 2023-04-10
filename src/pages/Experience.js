@@ -4,6 +4,8 @@ import 'react-vertical-timeline-component/style.min.css'
 import SchoolIcon from '@mui/icons-material/School';
 import '../styles/experience.css'
 import {motion} from 'framer-motion'
+import {Link} from 'react-router-dom';
+import HomeIcon from '@mui/icons-material/Home';
 import DefaultPage from './DefaultPage';
 
 export default function Experience(){
@@ -57,6 +59,7 @@ export default function Experience(){
 
 
                 </VerticalTimeline>
+                <center style={{marginTop:'1rem'}}><Link className='logo' to="/"><HomeIcon/> Return to home page /&gt; </Link></center>
             </motion.div>
         </DefaultPage>
         );

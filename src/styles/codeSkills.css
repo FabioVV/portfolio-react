@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&display=swap');
+
+pre{
+
+    font-size: 1.7em;
+    text-align: justify;
+
+}
+
+
+p,h1,h2,h3,h4,span,a{
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+
+span.comment.linenumber.react-syntax-highlighter-line-number{
+    margin-left: 17rem;
+}
+
+
+span{
+    transition: ease-in-out;
+}
+
+span:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+@media only screen and (max-width:1348px){
+    span.comment.linenumber.react-syntax-highlighter-line-number{
+        margin-left: 0;
+    }
+ 
+
+}
+
+
+@media only screen and (max-width:1055px){
+    pre{
+
+        font-size: 1.5em;
+        text-align: justify;
+    
+    }
+    
+}
+
+
+@media only screen and (max-width:920px){
+    pre{
+
+        font-size: 1.3em;
+        text-align: justify;
+    
+    }
+    
+}
