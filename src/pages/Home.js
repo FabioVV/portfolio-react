@@ -20,7 +20,7 @@ export default function Home() {
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
       >
         <div className="about ">
-          <h1>
+          <h1 className="main-h1">
             Hi, my name is <span className="author">Fábio</span>
           </h1>
           <div
