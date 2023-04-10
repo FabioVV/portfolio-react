@@ -2,8 +2,6 @@ import './styles/app.css';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Particles from "react-tsparticles"; 
 import { loadFull } from "tsparticles"; 
-import CustomCursor from 'custom-cursor-react';
-import 'custom-cursor-react/dist/index.css';
 import AnimatedRoutes from './components/AnimatedRoutes';
 
 
@@ -19,18 +17,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <CustomCursor
-      targets={['.link', '.your-css-selector']}
-      customClass='custom-cursor'
-      dimensions={60}
-      fill='#FFF'
-      smoothness={{
-        movement: 1.5,
-        scale: 0.5,
-        opacity: 0.9,
-      }}
-      targetOpacity={0.5}
-    />
+      
       
       <Particles 
         id="tsparticles" 
