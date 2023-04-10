@@ -25,7 +25,7 @@ export default function App() {
       dimensions={60}
       fill='#FFF'
       smoothness={{
-        movement: 1,
+        movement: 1.5,
         scale: 0.5,
         opacity: 0.9,
       }}
