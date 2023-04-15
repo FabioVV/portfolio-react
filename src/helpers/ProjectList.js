@@ -1,6 +1,7 @@
 import flask from '../assets/flask.png'
 import react from '../assets/react.png'
 import ruby from '../assets/ruby.png'
+import python from '../assets/python.png'
 
 export const projectList = [
 
@@ -28,4 +29,9 @@ export const projectList = [
     name: "Blog in Ruby on rails",
     image: ruby,
     github_repo: "https://github.com/FabioVV/RubyBlog"
+},
+{
+    name: "IDE/Text editor in Python",
+    image: python,
+    github_repo: "https://github.com/FabioVV/tkinter-VERYsimple-ide"
 },] 

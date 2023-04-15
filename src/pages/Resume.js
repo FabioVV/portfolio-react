@@ -16,7 +16,8 @@ export default function Resume() {
                       exit={{x:window.innerWidth, transition:{duration:0.1}}}
       
       >
-          <h1 className='title'>FÁBIO VARELA</h1>
+          
+<h1 className='title'>FÁBIO VARELA</h1>
           <small className='contact'>fabio-varela@protonmail.com | 49-985018642 </small>
 
           <div>

@@ -20,7 +20,7 @@ class MySkills:
                 return {
                           'Front - End: ':  [  'ReactJS',   'HTML',   'CSS',   'Bootstrap',   'MaterialU'  ],
 
-                          'Back - End: ':  [  'MySQL',   'SQLServer',   'Flask',   'Ruby on Rails'  ],
+                          'Back - End: ':  [  'MySQL',   'SQLServer',   'Flask',   'Ruby on Rails' ,   'Node.js'  ],
 
                           'Languages: ':  [  'Ruby',   'C#',   'Python',   'Javascript'  ]
                 }

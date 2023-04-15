@@ -14,7 +14,7 @@
     color: white;
     font-size: 1.4em;
     transition: ease-in-out 250ms;
-    text-decoration: overline;
+   
     
 }
 
@@ -23,7 +23,7 @@ a.logo{
     border: none;
     text-decoration: none;
     color: white;
-    text-decoration: overline;
+    
 }
 
 .navbar{
@@ -31,13 +31,9 @@ a.logo{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+   
 }
 
-
-
-.navbar a:hover{
-    text-decoration: overline #fbc403;
-}
 
 
 #open div.links{
@@ -46,7 +42,7 @@ a.logo{
     justify-content: center;
     align-items: center;
     padding: 0;
-  
+    transition: 0.4s ease-in-out;
 }
 
 #open{
