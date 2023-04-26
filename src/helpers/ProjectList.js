@@ -34,4 +34,9 @@ export const projectList = [
     name: "IDE/Text editor in Python",
     image: python,
     github_repo: "https://github.com/FabioVV/tkinter-VERYsimple-ide"
+},
+{
+    name: "Course project Website (For my girlfriend <3)",
+    image: flask,
+    github_repo: "https://github.com/FabioVV/culture-etec-momo"
 },] 
